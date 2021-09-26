@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon Quiz</title>
-</head>
-<body>
-    <script>
-    var readlineSync = require('readline-sync');
+var readlineSync = require('readline-sync');
 
 console.log("Welcome to the game, Do you know Pikachu? \n")
 
@@ -124,6 +114,3 @@ if(score == highScores.score){
   console.log("High score: ", highScores.score);
   console.log("\n");
 }
-</script>
-</body>
-</html>
